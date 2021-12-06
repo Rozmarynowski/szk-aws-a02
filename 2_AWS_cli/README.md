@@ -33,7 +33,8 @@ as default region set **eu-west-1**
 
 
 <h2 id="step5">Task 2 - Gather Information About the Instances in the Application Stack</h2>
-
+Turn off the Cloud9 temporary IAM credentials.
+![iam off](img/iam_credentials_off.png)
 <p>In this task, you will query the application stack using the AWS CLI to find out information about the Amazon EC2 instances being used in the application stack.</p>
 <ol start="1">
 <li>Query the AWS account provided for you in this lab for all the Amazon EC2 instances that are available by using the command below:</li>
